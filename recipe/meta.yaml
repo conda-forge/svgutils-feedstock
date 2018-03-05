@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: svgutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/svgutils/svgutils-{{ version }}.tar.gz
-  sha256: 25ecf6d62fd5669624862f6c277af8b24dd5e534163fdc202d076b3b061e12cc
+  sha256: 29dddbc378f92db74067b9800b6b0294b94c712a632b7140d6dd3d4e66692b74
 
 build:
   number: 0
