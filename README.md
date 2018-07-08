@@ -20,14 +20,15 @@ of svg figures and adding markers, such as labels.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/svgutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/svgutils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/svgutils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/svgutils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/svgutils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/svgutils-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/svgutils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/svgutils-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/svgutils/badges/version.svg)](https://anaconda.org/conda-forge/svgutils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/svgutils/badges/downloads.svg)](https://anaconda.org/conda-forge/svgutils)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-svgutils-green.svg)](https://anaconda.org/conda-forge/svgutils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/svgutils.svg)](https://anaconda.org/conda-forge/svgutils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/svgutils.svg)](https://anaconda.org/conda-forge/svgutils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/svgutils.svg)](https://anaconda.org/conda-forge/svgutils) |
 
 Installing svgutils
 ===================
