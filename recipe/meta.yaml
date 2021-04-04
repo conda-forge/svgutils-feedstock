@@ -11,16 +11,16 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
-    - setuptools
+    - python >= 3.6
+    - pip
     - lxml
 
   run:
-    - python
+    - python >= 3.6
     - lxml
 
 test:
@@ -30,6 +30,7 @@ test:
 about:
   home: https://svgutils.readthedocs.io
   license: MIT
+  license_file: LICENSE
   summary: |
     Python SVG editor that allows to automatically create publication ready
     composite SVG figures.
