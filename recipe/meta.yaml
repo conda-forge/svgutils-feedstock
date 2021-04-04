@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/svgutils/svgutils-{{ version }}.tar.gz
-  sha256: 9ef48f44cb1d460a7747dd02694200fda25eb9faf6dea392118def2695e0e053
+  url: https://github.com/btel/svg_utils/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: c00fba26c3f0099532fb87b79172bcb11516c921f7e5dd7d30a8f29db4744eb7
 
 build:
   noarch: python
