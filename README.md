@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About svgutils
 ==============
 
@@ -9,11 +5,15 @@ Home: https://svgutils.readthedocs.io
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svgutils-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python SVG editor that allows to automatically create publication ready
 composite SVG figures.
 
+
+Development: https://github.com/btel/svg_utils
+
+Documentation: https://svgutils.readthedocs.io
 
 This is an utility package that helps to edit and concatenate SVG files.
 It is especially directed at scientists preparing final figures for
@@ -24,8 +24,15 @@ of svg figures and adding markers, such as labels.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/svgutils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/svgutils-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4365&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/svgutils-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -70,7 +77,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 

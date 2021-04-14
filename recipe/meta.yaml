@@ -1,26 +1,26 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.4" %}
 
 package:
   name: svgutils
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/svgutils/svgutils-{{ version }}.tar.gz
-  sha256: cd52474765fd460ad2389947f77589de96142f6f0ce3f61e08ccfabeac2ff8af
+  url: https://github.com/btel/svg_utils/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: c00fba26c3f0099532fb87b79172bcb11516c921f7e5dd7d30a8f29db4744eb7
 
 build:
   noarch: python
-  number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
-    - python
-    - setuptools
+  host:
+    - python >=3.6
+    - pip
     - lxml
 
   run:
-    - python
+    - python >=3.6
     - lxml
 
 test:
@@ -30,6 +30,7 @@ test:
 about:
   home: https://svgutils.readthedocs.io
   license: MIT
+  license_file: LICENSE
   summary: |
     Python SVG editor that allows to automatically create publication ready
     composite SVG figures.
